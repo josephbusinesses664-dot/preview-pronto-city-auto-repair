@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Pronto City Auto Repair | Auto Repair in Selma, CA</title>
-<meta name="description" content="Pronto City Auto Repair in Selma, CA — full-service mechanic, brakes, tires, and towing. Rated 3.7&#9733; by local drivers. Call (559) 318-9152 for a fast estimate.">
-<meta name="theme-color" content="#14202b">
-<meta name="robots" content="index,follow">
+<meta name="description" content="Pronto City Auto Repair — full-service mechanic, brakes, tires &amp; towing in Selma, CA. Rated 3.7&#9733; by local drivers. Call (559) 318-9152 for a fast estimate.">
+<meta name="theme-color" content="#0e1116">
+<link rel="canonical" href="https://preview-pronto-city-auto-repair.onrender.com">
 
 <!-- Open Graph -->
 <meta property="og:type" content="business.business">
 <meta property="og:title" content="Pronto City Auto Repair | Auto Repair in Selma, CA">
-<meta property="og:description" content="Full-service auto repair in Selma, CA — mechanic work, brakes, tires, and towing. Call (559) 318-9152.">
+<meta property="og:description" content="Full-service mechanic, brakes, tires &amp; towing in Selma, CA. Call (559) 318-9152 for a fast estimate.">
+<meta property="og:url" content="https://preview-pronto-city-auto-repair.onrender.com">
 <meta property="og:image" content="https://s3-media0.fl.yelpcdn.com/bphoto/bDAnknDX9XSKSs0O9atvmg/o.jpg">
-<meta property="og:locale" content="en_US">
-
-<!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Pronto City Auto Repair | Auto Repair in Selma, CA">
-<meta name="twitter:description" content="Full-service auto repair in Selma, CA — mechanic work, brakes, tires, and towing. Call (559) 318-9152.">
+<meta name="twitter:description" content="Full-service mechanic, brakes, tires &amp; towing in Selma, CA. Call (559) 318-9152.">
 <meta name="twitter:image" content="https://s3-media0.fl.yelpcdn.com/bphoto/bDAnknDX9XSKSs0O9atvmg/o.jpg">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <!-- Google tag (gtag.js) -->
 <link rel="preconnect" href="https://www.googletagmanager.com">
@@ -35,34 +33,33 @@
   gtag('config', 'G-03WND9ZQL7');
 </script>
 
-<!-- Meta Pixel — dormant until a real numeric ID is pasted -->
+<!-- Meta Pixel (dormant until a real ID is set) -->
 <script>
 (function(){
-  var META_PIXEL_ID='PASTE_PIXEL_ID';           /* e.g. 1400137061960739 */
-  if(!/^\d{6,}$/.test(META_PIXEL_ID))return;     /* no valid id -> do nothing */
+  var META_PIXEL_ID='PASTE_PIXEL_ID';
+  if(!/^\d{6,}$/.test(META_PIXEL_ID))return;
   !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
   fbq('init',META_PIXEL_ID);
   fbq('track','PageView');
-  /* Count taps on the call / CTA buttons as Lead conversions */
   document.addEventListener('DOMContentLoaded',function(){
-    document.querySelectorAll('a[data-cta],a[href^="tel:"]').forEach(function(a){
+    document.querySelectorAll('a[data-cta="lead"]').forEach(function(a){
       a.addEventListener('click',function(){try{fbq('track','Lead');}catch(e){}});
     });
   });
 })();
 </script>
-<noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=PASTE_PIXEL_ID&ev=PageView&noscript=1"/></noscript>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=PASTE_PIXEL_ID&ev=PageView&noscript=1"/></noscript>
+<!-- End Meta Pixel -->
 
-<!-- JSON-LD -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "AutoRepair",
   "name": "Pronto City Auto Repair",
+  "description": "Full-service auto repair in Selma, CA — mechanic work, brakes, tires and towing. Fast estimates and honest turnaround.",
   "image": "https://s3-media0.fl.yelpcdn.com/bphoto/bDAnknDX9XSKSs0O9atvmg/o.jpg",
-  "telephone": "(559) 318-9152",
-  "url": "https://www.yelp.com/biz/pronto-city-auto-repair-selma",
+  "url": "https://preview-pronto-city-auto-repair.onrender.com",
+  "telephone": "+15593189152",
   "priceRange": "$$",
   "address": {
     "@type": "PostalAddress",
@@ -71,6 +68,7 @@
     "addressRegion": "CA",
     "addressCountry": "US"
   },
+  "areaServed": ["Selma", "Fresno County"],
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "3.7",
@@ -85,7 +83,7 @@
     },
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": "Saturday",
+      "dayOfWeek": ["Saturday"],
       "opens": "08:00",
       "closes": "15:00"
     }
@@ -95,168 +93,119 @@
 
 <style>
 :root{
-  --bg:#f6f8fa; --bg2:#eaeef3; --surface:#ffffff;
-  --ink:#14202b; --ink2:#5a6b78;
-  --border:#e0e6ec;
-  --accent:#e2372f; --accent-d:#b31f1a; --accent-ink:#ffffff;
-  --pop:#f5a623;
-  --font-d:'Oswald',sans-serif; --font-b:'Inter',sans-serif;
-  --radius:14px; --radius-lg:22px; --radius-pill:999px;
-  --shadow-1:0 2px 10px rgba(20,32,43,.06);
-  --shadow-2:0 18px 40px rgba(20,32,43,.14);
-  --display-ls:.5px;
+  /* portal-themeable palette */
+  --oc-bg:#0e1116; --oc-surface:#161b22; --oc-text:#e8ecf1; --oc-muted:#9aa6b2;
+  --oc-border:#242c37; --oc-accent:#f5a623; --oc-accent-ink:#0e1116;
+  --oc-heading-font:'Oswald',sans-serif; --oc-body-font:'Inter',sans-serif; --oc-radius:12px;
+
+  /* aliases the animation kit reads */
+  --bg:var(--oc-bg); --bg2:var(--oc-surface); --ink:var(--oc-text); --ink2:var(--oc-muted);
+  --accent:var(--oc-accent); --accent-d:#c77f10; --pop:#e2451f;
+  --font-d:var(--oc-heading-font); --font-b:var(--oc-body-font);
+  --radius:var(--oc-radius); --radius-lg:20px;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{
-  margin:0;background:var(--bg);color:var(--ink);
-  font-family:var(--font-b);font-size:17px;line-height:1.65;
+  margin:0; background:var(--oc-bg); color:var(--oc-text);
+  font-family:var(--oc-body-font); font-size:16px; line-height:1.6;
   -webkit-font-smoothing:antialiased;
 }
-h1,h2,h3{font-family:var(--font-d);font-weight:700;letter-spacing:var(--display-ls);line-height:1.05;text-transform:uppercase;margin:0}
-a{color:inherit;text-decoration:none}
-img{max-width:100%;display:block}
-.wrap{max-width:1120px;margin:0 auto;padding:0 22px}
-.eyebrow{font-family:var(--font-d);font-weight:600;text-transform:uppercase;letter-spacing:2px;
-  font-size:.82rem;color:var(--accent)}
-.btn{display:inline-flex;align-items:center;gap:9px;font-family:var(--font-d);font-weight:600;
-  text-transform:uppercase;letter-spacing:.6px;font-size:1rem;padding:14px 24px;border-radius:var(--radius-pill);
-  min-height:48px;cursor:pointer;border:2px solid transparent}
-.btn-primary{background:var(--accent);color:var(--accent-ink);box-shadow:var(--shadow-1)}
-.btn-primary:hover{background:var(--accent-d);transform:translateY(-2px);box-shadow:var(--shadow-2)}
-.btn-ghost{background:transparent;color:var(--ink);border-color:var(--border)}
-.btn-ghost:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-2px)}
-.icon{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
-
-/* ── nav ─────────────────────────────────────────── */
-.nav{position:sticky;top:0;z-index:50;background:rgba(246,248,250,.92);
-  backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
-.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:70px}
-.brand{display:flex;align-items:center;gap:11px;font-family:var(--font-d);font-weight:700;
-  text-transform:uppercase;letter-spacing:.5px;font-size:1.18rem}
-.brand .mark{width:38px;height:38px;border-radius:10px;background:var(--accent);color:#fff;
-  display:grid;place-items:center;flex:none}
-.brand .mark svg{width:22px;height:22px;stroke:#fff}
-.nav-links{display:flex;align-items:center;gap:26px}
-.nav-links a.lnk{font-family:var(--font-d);font-weight:500;text-transform:uppercase;letter-spacing:.6px;font-size:.95rem}
-@media(max-width:820px){.nav-links a.lnk{display:none}}
-
-/* ── hero ────────────────────────────────────────── */
-.hero{position:relative;overflow:hidden;color:#fff;isolation:isolate}
-.hero__bg{position:absolute;inset:0;z-index:-2}
-.hero__bg img{width:100%;height:100%;object-fit:cover}
-.hero__bg::after{content:"";position:absolute;inset:0;
-  background:linear-gradient(105deg,rgba(15,22,30,.94) 0%,rgba(15,22,30,.78) 45%,rgba(15,22,30,.45) 100%)}
-.hero .wrap{position:relative;padding:104px 22px 96px}
-.hero h1{font-size:clamp(2.6rem,7vw,5rem);max-width:14ch}
-.hero p.lead{font-size:1.22rem;max-width:52ch;margin:20px 0 0;color:#e7edf2;line-height:1.55}
-.hero .cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:34px}
-.rating{display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.1);
-  border:1px solid rgba(255,255,255,.22);padding:8px 16px;border-radius:var(--radius-pill);
-  font-family:var(--font-d);font-weight:500;letter-spacing:.4px;margin-bottom:22px}
-.rating .stars{color:var(--pop);letter-spacing:2px;font-size:1.05rem}
-.hero .loc{display:inline-flex;align-items:center;gap:8px;margin-top:28px;color:#cfd8e0;font-size:.98rem}
-.hero .loc svg{width:18px;height:18px;stroke:var(--pop)}
-
-/* ── marquee strip ───────────────────────────────── */
-.strip{background:var(--ink);color:#fff;padding:16px 0}
-.strip .fx-marquee__item{color:#cfd8e0;display:inline-flex;align-items:center;gap:10px}
-.strip .dot{width:7px;height:7px;border-radius:50%;background:var(--accent);flex:none}
-
-/* ── sections ────────────────────────────────────── */
+h1,h2,h3{font-family:var(--oc-heading-font); font-weight:700; line-height:1.1; letter-spacing:.5px; text-transform:uppercase; margin:0 0 .4em}
+a{color:inherit}
+img{max-width:100%; display:block}
+.wrap{max-width:1120px; margin:0 auto; padding:0 22px}
+.eyebrow{font-family:var(--oc-heading-font); letter-spacing:3px; text-transform:uppercase; color:var(--oc-accent); font-size:.8rem; font-weight:600; margin:0 0 .6em}
 section{padding:78px 0}
-.sec-head{max-width:640px;margin-bottom:44px}
-.sec-head h2{font-size:clamp(1.9rem,4vw,2.9rem);margin:12px 0 0}
-.sec-head p{color:var(--ink2);margin:14px 0 0;font-size:1.08rem}
+.btn{
+  display:inline-flex; align-items:center; gap:10px; min-height:48px; padding:0 24px;
+  background:var(--oc-accent); color:var(--oc-accent-ink); font-family:var(--oc-heading-font);
+  font-weight:600; letter-spacing:1px; text-transform:uppercase; text-decoration:none;
+  border-radius:var(--oc-radius); border:0; cursor:pointer; box-shadow:0 8px 22px rgba(245,166,35,.22);
+}
+.btn.ghost{background:transparent; color:var(--oc-text); border:1px solid var(--oc-border); box-shadow:none}
+.btn svg{width:20px;height:20px;stroke:currentColor;fill:none;stroke-width:2}
 
-/* services */
-.grid{display:grid;gap:20px}
-.services .grid{grid-template-columns:repeat(3,1fr)}
-@media(max-width:860px){.services .grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:540px){.services .grid{grid-template-columns:1fr}}
-.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
-  padding:28px 26px;box-shadow:var(--shadow-1);transition:transform .2s,box-shadow .2s}
-.card:hover{transform:translateY(-4px);box-shadow:var(--shadow-2)}
-.card .ic{width:52px;height:52px;border-radius:13px;background:var(--bg2);color:var(--accent);
-  display:grid;place-items:center;margin-bottom:18px}
-.card .ic svg{width:26px;height:26px}
-.card h3{font-size:1.28rem}
-.card p{color:var(--ink2);margin:10px 0 0;font-size:1rem;line-height:1.6}
+/* ── Nav ── */
+header.nav{position:sticky; top:0; z-index:50; background:rgba(14,17,22,.82); backdrop-filter:blur(10px); border-bottom:1px solid var(--oc-border)}
+.nav .wrap{display:flex; align-items:center; justify-content:space-between; height:66px}
+.brand{display:flex; align-items:center; gap:11px; font-family:var(--oc-heading-font); font-weight:700; letter-spacing:1px; text-transform:uppercase; font-size:1.05rem}
+.brand svg{width:26px;height:26px;stroke:var(--oc-accent);fill:none;stroke-width:2}
+.nav-links{display:flex; gap:26px; align-items:center}
+.nav-links a{text-decoration:none; font-weight:500; font-size:.95rem; color:var(--oc-muted)}
+.nav-links a:hover{color:var(--oc-text)}
+.nav .btn{min-height:42px; padding:0 18px}
+@media(max-width:760px){.nav-links a:not(.btn){display:none}}
 
-/* about */
-.about{background:var(--bg2)}
-.about .cols{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
-@media(max-width:820px){.about .cols{grid-template-columns:1fr;gap:34px}}
-.about .photo{border-radius:var(--radius-lg);overflow:hidden;box-shadow:var(--shadow-2);aspect-ratio:4/3}
-.about .photo img{width:100%;height:100%;object-fit:cover}
-.about h2{font-size:clamp(1.9rem,4vw,2.8rem);margin-top:12px}
-.about p{color:var(--ink2);font-size:1.08rem;margin:16px 0 0}
-.about .owner{display:flex;align-items:center;gap:14px;margin-top:26px}
-.about .owner .av{width:48px;height:48px;border-radius:50%;background:var(--accent);color:#fff;
-  display:grid;place-items:center;font-family:var(--font-d);font-weight:700;font-size:1.15rem;flex:none}
-.about .owner b{font-family:var(--font-d);letter-spacing:.4px}
-.about .owner span{display:block;color:var(--ink2);font-size:.92rem;font-family:var(--font-b);font-weight:400}
+/* ── Hero ── */
+.hero{position:relative; overflow:hidden; min-height:82vh; display:flex; align-items:center}
+.hero__bg{position:absolute; inset:0; z-index:0}
+.hero__bg img{width:100%; height:100%; object-fit:cover; opacity:.34}
+.hero__bg::after{content:""; position:absolute; inset:0; background:linear-gradient(180deg,rgba(14,17,22,.72),rgba(14,17,22,.94)),radial-gradient(70% 60% at 20% 20%,rgba(245,166,35,.14),transparent 60%)}
+.hero .wrap{position:relative; z-index:2; padding-top:60px; padding-bottom:60px}
+.hero h1{font-size:clamp(2.7rem,7.5vw,5.4rem); max-width:14ch}
+.hero .sub{max-width:56ch; color:var(--oc-muted); font-size:1.12rem; margin:0 0 30px}
+.rating{display:inline-flex; align-items:center; gap:10px; margin-bottom:22px; padding:7px 15px; border:1px solid var(--oc-border); border-radius:999px; background:var(--oc-surface)}
+.stars{color:var(--oc-accent); letter-spacing:2px; font-size:1.05rem}
+.rating small{color:var(--oc-muted)}
+.hero-cta{display:flex; gap:14px; flex-wrap:wrap}
 
-/* gallery */
-.gallery .grid{grid-template-columns:repeat(3,1fr)}
-@media(max-width:820px){.gallery .grid{grid-template-columns:repeat(2,1fr)}}
-.gallery figure{margin:0;border-radius:var(--radius);overflow:hidden;aspect-ratio:1/1;box-shadow:var(--shadow-1)}
-.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+/* ── Trust strip ── */
+.strip{padding:20px 0; border-top:1px solid var(--oc-border); border-bottom:1px solid var(--oc-border); background:var(--oc-surface)}
+
+/* ── Services ── */
+.grid{display:grid; gap:20px; grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.card{background:var(--oc-surface); border:1px solid var(--oc-border); border-radius:var(--oc-radius); padding:28px}
+.card .ico{width:46px;height:46px;display:grid;place-items:center;border-radius:12px;background:rgba(245,166,35,.12);margin-bottom:16px}
+.card .ico svg{width:26px;height:26px;stroke:var(--oc-accent);fill:none;stroke-width:2}
+.card h3{font-size:1.15rem;margin-bottom:.35em}
+.card p{color:var(--oc-muted); margin:0; font-size:.96rem}
+
+/* ── About ── */
+.about{display:grid; grid-template-columns:1.1fr .9fr; gap:44px; align-items:center}
+.about img{border-radius:var(--oc-radius); border:1px solid var(--oc-border); aspect-ratio:4/3; object-fit:cover; width:100%}
+.quote{border-left:3px solid var(--oc-accent); padding:6px 0 6px 20px; color:var(--oc-text); font-size:1.08rem; margin:22px 0 0; font-style:italic}
+@media(max-width:820px){.about{grid-template-columns:1fr}}
+
+/* ── Gallery ── */
+.gallery{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:14px}
+.gallery figure{margin:0; overflow:hidden; border-radius:var(--oc-radius); border:1px solid var(--oc-border)}
+.gallery img{aspect-ratio:1/1; object-fit:cover; width:100%; transition:transform .5s cubic-bezier(.22,1,.36,1)}
 .gallery figure:hover img{transform:scale(1.06)}
 
-/* reviews */
-.reviews{background:var(--ink);color:#fff}
-.reviews .sec-head p{color:#c6d0d9}
-.reviews .grid{grid-template-columns:repeat(2,1fr)}
-@media(max-width:760px){.reviews .grid{grid-template-columns:1fr}}
-.quote{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);
-  border-radius:var(--radius);padding:30px 28px}
-.quote .stars{color:var(--pop);letter-spacing:3px;font-size:1.1rem;margin-bottom:14px}
-.quote p{margin:0;font-size:1.08rem;line-height:1.65;color:#e7edf2}
+/* ── Visit / contact ── */
+.visit{display:grid; grid-template-columns:1fr 1fr; gap:44px}
+@media(max-width:820px){.visit{grid-template-columns:1fr}}
+.info-row{display:flex; gap:14px; padding:16px 0; border-bottom:1px solid var(--oc-border); align-items:flex-start}
+.info-row svg{width:22px;height:22px;stroke:var(--oc-accent);fill:none;stroke-width:2;flex:0 0 auto;margin-top:2px}
+.info-row b{font-family:var(--oc-heading-font); letter-spacing:.5px; text-transform:uppercase; font-size:.82rem; color:var(--oc-muted); display:block; margin-bottom:2px}
+.hours{width:100%; border-collapse:collapse}
+.hours td{padding:11px 0; border-bottom:1px solid var(--oc-border); font-size:.98rem}
+.hours td:last-child{text-align:right; color:var(--oc-muted)}
+.hours tr.today td{color:var(--oc-accent); font-weight:600}
+.hours tr.today td:last-child{color:var(--oc-accent)}
 
-/* visit / contact */
-.visit .cols{display:grid;grid-template-columns:1fr 1fr;gap:40px}
-@media(max-width:820px){.visit .cols{grid-template-columns:1fr;gap:30px}}
-.info-row{display:flex;gap:16px;padding:18px 0;border-bottom:1px solid var(--border)}
-.info-row:last-child{border-bottom:0}
-.info-row .ic{width:44px;height:44px;border-radius:11px;background:var(--bg2);color:var(--accent);
-  display:grid;place-items:center;flex:none}
-.info-row .ic svg{width:22px;height:22px}
-.info-row h4{margin:0 0 3px;font-family:var(--font-d);letter-spacing:.4px;font-size:1.05rem;text-transform:uppercase}
-.info-row p,.info-row a{margin:0;color:var(--ink2);font-size:1rem}
-.info-row a:hover{color:var(--accent)}
-.hours{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--border);
-  border-radius:var(--radius);overflow:hidden}
-.hours th{background:var(--bg2);text-align:left;font-family:var(--font-d);text-transform:uppercase;
-  letter-spacing:.6px;font-size:.9rem;padding:14px 20px}
-.hours td{padding:13px 20px;border-top:1px solid var(--border);font-size:1rem}
-.hours td:last-child{text-align:right;color:var(--ink2)}
-.hours tr.today td{background:#fff6ef;font-weight:600;color:var(--ink)}
-.map-btn{margin-top:22px}
+/* ── Footer ── */
+footer{border-top:1px solid var(--oc-border); padding:40px 0; color:var(--oc-muted); font-size:.9rem}
+footer .wrap{display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; align-items:center}
 
-/* footer */
-footer{background:#0d151d;color:#aeb9c3;padding:44px 0;text-align:center}
-footer .brand{justify-content:center;color:#fff;margin-bottom:14px}
-footer a{color:var(--pop)}
-footer .fnav{display:flex;gap:22px;justify-content:center;flex-wrap:wrap;margin:16px 0;
-  font-family:var(--font-d);text-transform:uppercase;letter-spacing:.5px;font-size:.9rem}
-footer small{display:block;margin-top:14px;color:#6c7a87;font-size:.82rem}
-
-/* animation kit styles */
+/* animation kit effects */
 .fx-marquee{display:flex;overflow:hidden;gap:0;mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
-.fx-marquee__track{display:flex;flex:0 0 auto;gap:clamp(28px,5vw,64px);padding-right:clamp(28px,5vw,64px);
-  align-items:center;animation:fx-marquee 28s linear infinite;white-space:nowrap}
+.fx-marquee__track{display:flex;flex:0 0 auto;gap:clamp(28px,5vw,64px);padding-right:clamp(28px,5vw,64px);align-items:center;animation:fx-marquee 28s linear infinite;white-space:nowrap}
 .fx-marquee:hover .fx-marquee__track{animation-play-state:paused}
-.fx-marquee__item{font-family:var(--font-d);font-weight:600;font-size:clamp(1rem,2.4vw,1.4rem);
-  letter-spacing:.3px}
+.fx-marquee__item{font-family:var(--font-d);font-weight:600;font-size:clamp(1rem,2.4vw,1.4rem);color:var(--ink2);opacity:.7;letter-spacing:.4px;text-transform:uppercase}
 [data-anim]{will-change:transform,opacity}
 [data-anim="rise"],[data-anim="stagger"]{opacity:0;transform:translateY(26px)}
 [data-anim].cf-in{opacity:1;transform:none;transition:opacity .7s cubic-bezier(.22,1,.36,1),transform .7s cubic-bezier(.22,1,.36,1)}
 .cf-line{display:inline-block;overflow:hidden;vertical-align:top}
 .cf-line>span{display:inline-block;transform:translateY(110%);transition:transform .8s cubic-bezier(.22,1,.36,1)}
 .cf-line.cf-in>span{transform:none}
-.fx-tilt{transform:perspective(700px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));
-  transition:transform .2s ease;transform-style:preserve-3d}
+.fx-mag{transition:transform .18s cubic-bezier(.22,1,.36,1),box-shadow .18s}
+.fx-mag:hover{transform:translateY(-3px)}
+.fx-underline{position:relative}
+.fx-underline::after{content:"";position:absolute;left:0;bottom:-3px;width:100%;height:2px;background:var(--accent);transform:scaleX(0);transform-origin:right;transition:transform .3s cubic-bezier(.22,1,.36,1)}
+.fx-underline:hover::after{transform:scaleX(1);transform-origin:left}
+.fx-tilt{transform:perspective(700px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .2s ease;transform-style:preserve-3d}
 @keyframes fx-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){
   .fx-marquee__track{animation:none!important;justify-content:center}
@@ -268,229 +217,185 @@ footer small{display:block;margin-top:14px;color:#6c7a87;font-size:.82rem}
 </head>
 <body>
 
-<!-- NAV -->
 <header class="nav">
   <div class="wrap">
-    <a class="brand" href="#top">
-      <span class="mark"><svg viewBox="0 0 24 24"><path d="M3 13l1.5-4.5A2 2 0 0 1 6.4 7h11.2a2 2 0 0 1 1.9 1.5L21 13v5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1H6v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><circle cx="7" cy="15" r="1"/><circle cx="17" cy="15" r="1"/></svg></span>
-      Pronto City Auto Repair
+    <a class="brand" href="#top" aria-label="Pronto City Auto Repair home">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 13l2-5a3 3 0 0 1 2.8-2h8.4A3 3 0 0 1 19 8l2 5"/><path d="M5 13h14v5a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1H9v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z"/><path d="M7 16h.01M17 16h.01"/></svg>
+      Pronto City Auto
     </a>
     <nav class="nav-links">
-      <a class="lnk fx-underline" href="#services">Services</a>
-      <a class="lnk fx-underline" href="#about">About</a>
-      <a class="lnk fx-underline" href="#visit">Visit</a>
-      <a class="btn btn-primary fx-mag" data-cta href="tel:+15593189152">
-        <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        Call Now
-      </a>
+      <a class="fx-underline" href="#services">Services</a>
+      <a class="fx-underline" href="#about">About</a>
+      <a class="fx-underline" href="#visit">Visit</a>
+      <a class="btn fx-mag" data-cta="lead" href="tel:+15593189152">Call Now</a>
     </nav>
   </div>
 </header>
 
-<!-- HERO -->
-<section class="hero" id="top">
-  <div class="hero__bg" data-fx="parallax" data-speed="0.08">
-    <img src="https://s3-media0.fl.yelpcdn.com/bphoto/bDAnknDX9XSKSs0O9atvmg/o.jpg" alt="Pronto City Auto Repair shop in Selma, CA" fetchpriority="high">
-  </div>
-  <div class="wrap">
-    <span class="rating"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span> 3.7 rating &middot; Selma, CA</span>
-    <h1 data-anim="lines">Honest auto repair<br>done right, done fast.</h1>
-    <p class="lead">Full-service mechanic work, brakes, tires, and towing — trusted by Selma drivers to get you back on the road with a fair estimate and a straight answer.</p>
-    <div class="cta-row">
-      <a class="btn btn-primary fx-mag" data-cta href="tel:+15593189152">
-        <svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-        (559) 318-9152
-      </a>
-      <a class="btn btn-ghost" href="#services" style="color:#fff;border-color:rgba(255,255,255,.3)">Our Services</a>
-    </div>
-    <span class="loc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg> 1620 Todd St, Selma, CA</span>
-  </div>
-</section>
+<main id="top">
 
-<!-- STRIP -->
-<div class="strip">
-  <div class="fx-marquee">
-    <div class="fx-marquee__track" aria-hidden="true">
-      <span class="fx-marquee__item"><span class="dot"></span> Mechanic Work</span>
-      <span class="fx-marquee__item"><span class="dot"></span> Brake Service</span>
-      <span class="fx-marquee__item"><span class="dot"></span> Tires</span>
-      <span class="fx-marquee__item"><span class="dot"></span> Towing</span>
-      <span class="fx-marquee__item"><span class="dot"></span> Free Estimates</span>
-      <span class="fx-marquee__item"><span class="dot"></span> Fast Turnaround</span>
-      <span class="fx-marquee__item"><span class="dot"></span> Mechanic Work</span>
-      <span class="fx-marquee__item"><span class="dot"></span> Brake Service</span>
-      <span class="fx-marquee__item"><span class="dot"></span> Tires</span>
-      <span class="fx-marquee__item"><span class="dot"></span> Towing</span>
-      <span class="fx-marquee__item"><span class="dot"></span> Free Estimates</span>
-      <span class="fx-marquee__item"><span class="dot"></span> Fast Turnaround</span>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg" data-fx="parallax" data-speed="0.08">
+      <img src="https://s3-media0.fl.yelpcdn.com/bphoto/bDAnknDX9XSKSs0O9atvmg/o.jpg" alt="Pronto City Auto Repair shop in Selma, California" fetchpriority="high">
     </div>
-  </div>
-</div>
-
-<!-- SERVICES -->
-<section class="services" id="services">
-  <div class="wrap">
-    <div class="sec-head" data-anim="rise">
-      <span class="eyebrow">What We Do</span>
-      <h2>Full-service repair under one roof</h2>
-      <p>From a squeaky brake to a full breakdown, our shop handles it — and we'll tell you what your car actually needs, not what pads our bill.</p>
-    </div>
-    <div class="grid" data-anim="stagger">
-      <div class="card" data-fx="tilt">
-        <span class="ic"><svg class="icon" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg></span>
-        <h3>Mechanic Work</h3>
-        <p>General repairs and diagnostics — engine, suspension, electrical and everything in between, done by hands that know the trade.</p>
+    <div class="wrap">
+      <p class="eyebrow" data-anim="rise">Auto Repair &middot; Selma, CA</p>
+      <div class="rating" data-anim="rise">
+        <span class="stars" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+        <small>3.7 rating &middot; local drivers</small>
       </div>
-      <div class="card" data-fx="tilt">
-        <span class="ic"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg></span>
-        <h3>Brake Service</h3>
-        <p>Pads, rotors, and lines inspected and replaced so you stop short when it counts. Grinding or soft pedal? Bring it in.</p>
-      </div>
-      <div class="card" data-fx="tilt">
-        <span class="ic"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg></span>
-        <h3>Tires</h3>
-        <p>Mounting, balancing, rotations, and flat repairs to keep your ride smooth and your tread even mile after mile.</p>
-      </div>
-      <div class="card" data-fx="tilt">
-        <span class="ic"><svg class="icon" viewBox="0 0 24 24"><path d="M3 17h13v-5l4 2v3h1M6 17a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM20 17a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/><path d="M9 12V7h4l3 5"/></svg></span>
-        <h3>Towing</h3>
-        <p>Broke down on the road? Call and we'll get your vehicle towed to the shop, then start on an estimate right away.</p>
-      </div>
-      <div class="card" data-fx="tilt">
-        <span class="ic"><svg class="icon" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 15l2 2 4-4"/></svg></span>
-        <h3>Free Estimates</h3>
-        <p>We look it over, call you with a clear estimate and a timeframe, and don't touch the wrench until you say go.</p>
-      </div>
-      <div class="card" data-fx="tilt">
-        <span class="ic"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
-        <h3>Fast Turnaround</h3>
-        <p>We know a car in the shop is a day thrown off. We work quick and keep you posted so you're not left guessing.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ABOUT -->
-<section class="about" id="about">
-  <div class="wrap cols">
-    <div class="photo" data-anim="rise">
-      <img src="https://s3-media0.fl.yelpcdn.com/bphoto/0NNcoDg9M2ajPBtcXR6c6Q/o.jpg" alt="Inside Pronto City Auto Repair" loading="lazy">
-    </div>
-    <div data-anim="rise">
-      <span class="eyebrow">Your Local Shop</span>
-      <h2>A Selma shop that treats your car like their own</h2>
-      <p>Pronto City Auto Repair is a full-service shop right here on Todd St. When your car breaks down, we answer the call, give you a straight read on what you're looking at, and follow up with an estimate and a timeframe — no surprises when you come to pick it up.</p>
-      <p>Mechanic work, brakes, tires, towing — whatever the job, we do it right the first time and stand behind it.</p>
-      <div class="owner">
-        <span class="av">JS</span>
-        <div><b>Javier Sanchez</b><span>Owner &middot; Pronto City Auto Repair</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- GALLERY -->
-<section class="gallery">
-  <div class="wrap">
-    <div class="sec-head" data-anim="rise">
-      <span class="eyebrow">The Shop</span>
-      <h2>A look inside</h2>
-    </div>
-    <div class="grid" data-anim="stagger">
-      <figure><img src="https://s3-media0.fl.yelpcdn.com/bphoto/bDAnknDX9XSKSs0O9atvmg/o.jpg" alt="Pronto City Auto Repair exterior" loading="lazy"></figure>
-      <figure><img src="https://s3-media0.fl.yelpcdn.com/bphoto/0NNcoDg9M2ajPBtcXR6c6Q/o.jpg" alt="Repair bay at Pronto City Auto Repair" loading="lazy"></figure>
-      <figure><img src="https://s3-media0.fl.yelpcdn.com/bphoto/dUSJV0rX5vHARrH16GVufA/o.jpg" alt="Vehicle being serviced at Pronto City Auto Repair" loading="lazy"></figure>
-      <figure><img src="https://s3-media0.fl.yelpcdn.com/bphoto/tYqOjTBkh-Kv5nLC3fJSzw/o.jpg" alt="Auto repair work at Pronto City Auto Repair" loading="lazy"></figure>
-    </div>
-  </div>
-</section>
-
-<!-- REVIEWS -->
-<section class="reviews">
-  <div class="wrap">
-    <div class="sec-head" data-anim="rise">
-      <span class="eyebrow" style="color:var(--pop)">What Drivers Say</span>
-      <h2>Rated 3.7&#9733; by Selma locals</h2>
-      <p>Real words from customers who trusted us with their vehicle.</p>
-    </div>
-    <div class="grid" data-anim="stagger">
-      <div class="quote">
-        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p>"When my car broke down they answered my call, gave me an idea of what I was looking at, and called with an estimate and timeframe after I had my vehicle towed to their shop."</p>
-      </div>
-      <div class="quote">
-        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p>"Full-service auto repair — mechanic work, brakes, tires, and towing. Everything you need in one place, done without the runaround."</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- VISIT -->
-<section class="visit" id="visit">
-  <div class="wrap">
-    <div class="sec-head" data-anim="rise">
-      <span class="eyebrow">Come By</span>
-      <h2>Visit the shop</h2>
-      <p>Stop in or give us a call — we'll get you sorted.</p>
-    </div>
-    <div class="cols">
-      <div data-anim="rise">
-        <div class="info-row">
-          <span class="ic"><svg class="icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
-          <div><h4>Address</h4><p>1620 Todd St, Selma, CA</p></div>
-        </div>
-        <div class="info-row">
-          <span class="ic"><svg class="icon" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
-          <div><h4>Phone</h4><a href="tel:+15593189152" data-cta>(559) 318-9152</a></div>
-        </div>
-        <div class="info-row">
-          <span class="ic"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
-          <div><h4>Hours</h4><p>Mon&ndash;Fri 8am&ndash;5pm &middot; Sat 8am&ndash;3pm &middot; Sun Closed</p></div>
-        </div>
-        <a class="btn btn-primary fx-mag map-btn" href="https://www.yelp.com/biz/pronto-city-auto-repair-selma" target="_blank" rel="noopener">
-          <svg class="icon" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          View on Map
+      <h1 data-anim="lines">Honest Repairs.<br>Fast Turnaround.</h1>
+      <p class="sub" data-anim="rise">Full-service mechanic work, brakes, tires and towing — done right the first time. Broke down? We answer the call, give you a straight estimate, and get you back on the road.</p>
+      <div class="hero-cta" data-anim="rise">
+        <a class="btn fx-mag" data-cta="lead" href="tel:+15593189152">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.2 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.6a16 16 0 0 0 6 6l1.1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+          (559) 318-9152
         </a>
+        <a class="btn ghost fx-mag" href="#services">Our Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST STRIP -->
+  <div class="strip">
+    <div class="fx-marquee" aria-hidden="true">
+      <div class="fx-marquee__track">
+        <span class="fx-marquee__item">Mechanic Work</span>
+        <span class="fx-marquee__item">&bull;</span>
+        <span class="fx-marquee__item">Brakes</span>
+        <span class="fx-marquee__item">&bull;</span>
+        <span class="fx-marquee__item">Tires</span>
+        <span class="fx-marquee__item">&bull;</span>
+        <span class="fx-marquee__item">Towing</span>
+        <span class="fx-marquee__item">&bull;</span>
+        <span class="fx-marquee__item">Diagnostics</span>
+        <span class="fx-marquee__item">&bull;</span>
+        <span class="fx-marquee__item">Mechanic Work</span>
+        <span class="fx-marquee__item">&bull;</span>
+        <span class="fx-marquee__item">Brakes</span>
+        <span class="fx-marquee__item">&bull;</span>
+        <span class="fx-marquee__item">Tires</span>
+        <span class="fx-marquee__item">&bull;</span>
+        <span class="fx-marquee__item">Towing</span>
+        <span class="fx-marquee__item">&bull;</span>
+        <span class="fx-marquee__item">Diagnostics</span>
+        <span class="fx-marquee__item">&bull;</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="wrap">
+      <p class="eyebrow" data-anim="rise">What We Do</p>
+      <h2 data-anim="rise" style="font-size:clamp(1.9rem,4vw,2.8rem)">Full-Service Auto Care</h2>
+      <div class="grid" data-anim="stagger" style="margin-top:34px">
+        <div class="card fx-tilt">
+          <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 6l2.5-2.5a1.4 1.4 0 0 1 2 2L16 8l1 1a3 3 0 0 1-4 4l-6 6a2.1 2.1 0 0 1-3-3l6-6a3 3 0 0 1 4-4z"/></svg></div>
+          <h3>Mechanic Work</h3>
+          <p>Engine diagnostics, repairs and general maintenance to keep your vehicle running strong.</p>
+        </div>
+        <div class="card fx-tilt">
+          <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.2"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/></svg></div>
+          <h3>Brakes</h3>
+          <p>Pads, rotors and full brake service so you stop safely — inspected and done right.</p>
+        </div>
+        <div class="card fx-tilt">
+          <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 4v4M12 16v4M20 12h-4M8 12H4"/></svg></div>
+          <h3>Tires</h3>
+          <p>Mounting, balancing, rotations and replacements to keep you gripped and rolling.</p>
+        </div>
+        <div class="card fx-tilt">
+          <div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17h2l2-5h6l3 3h4a1 1 0 0 1 1 1v1"/><circle cx="7" cy="18" r="2"/><circle cx="18" cy="18" r="2"/><path d="M9 12V7h4l3 4"/></svg></div>
+          <h3>Towing</h3>
+          <p>Broke down? We&rsquo;ll get your vehicle to the shop and start the estimate right away.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" style="background:var(--oc-surface);border-top:1px solid var(--oc-border);border-bottom:1px solid var(--oc-border)">
+    <div class="wrap about">
+      <div data-anim="rise">
+        <p class="eyebrow">Why Pronto City</p>
+        <h2 style="font-size:clamp(1.9rem,4vw,2.8rem)">A Shop That Picks Up the Phone</h2>
+        <p style="color:var(--oc-muted)">When your car breaks down, you want a straight answer and a real timeframe — not a runaround. We answer the call, give you an honest idea of what you&rsquo;re looking at, and follow up with an estimate once your vehicle&rsquo;s in the shop. Local drivers in Selma trust us to keep it simple and get it done.</p>
+        <blockquote class="quote">&ldquo;They answered my call, gave me an idea of what I was looking at, and called with an estimate and timeframe after I had my vehicle towed to their shop.&rdquo;</blockquote>
+      </div>
+      <img data-anim="rise" src="https://s3-media0.fl.yelpcdn.com/bphoto/0NNcoDg9M2ajPBtcXR6c6Q/o.jpg" alt="Inside the Pronto City Auto Repair service bay" loading="lazy">
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section>
+    <div class="wrap">
+      <p class="eyebrow" data-anim="rise">The Shop</p>
+      <h2 data-anim="rise" style="font-size:clamp(1.9rem,4vw,2.8rem)">Take a Look</h2>
+      <div class="gallery" data-anim="stagger" style="margin-top:30px">
+        <figure><img src="https://s3-media0.fl.yelpcdn.com/bphoto/bDAnknDX9XSKSs0O9atvmg/o.jpg" alt="Pronto City Auto Repair exterior in Selma" loading="lazy"></figure>
+        <figure><img src="https://s3-media0.fl.yelpcdn.com/bphoto/0NNcoDg9M2ajPBtcXR6c6Q/o.jpg" alt="Service bay at Pronto City Auto Repair" loading="lazy"></figure>
+        <figure><img src="https://s3-media0.fl.yelpcdn.com/bphoto/dUSJV0rX5vHARrH16GVufA/o.jpg" alt="Vehicle being worked on at Pronto City Auto Repair" loading="lazy"></figure>
+        <figure><img src="https://s3-media0.fl.yelpcdn.com/bphoto/tYqOjTBkh-Kv5nLC3fJSzw/o.jpg" alt="Tools and equipment at Pronto City Auto Repair" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISIT -->
+  <section id="visit" style="background:var(--oc-surface);border-top:1px solid var(--oc-border)">
+    <div class="wrap visit">
+      <div data-anim="rise">
+        <p class="eyebrow">Visit / Contact</p>
+        <h2 style="font-size:clamp(1.9rem,4vw,2.8rem)">Come By or Call</h2>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div><b>Address</b><a class="fx-underline" href="https://www.yelp.com/biz/pronto-city-auto-repair-selma" target="_blank" rel="noopener" style="text-decoration:none">1620 Todd St, Selma, CA</a></div>
+        </div>
+        <div class="info-row">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.2 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.6a16 16 0 0 0 6 6l1.1-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+          <div><b>Phone</b><a class="fx-underline" data-cta="lead" href="tel:+15593189152" style="text-decoration:none">(559) 318-9152</a></div>
+        </div>
+        <div style="margin-top:26px"><a class="btn fx-mag" data-cta="lead" href="tel:+15593189152">Get a Fast Estimate</a></div>
       </div>
       <div data-anim="rise">
+        <p class="eyebrow">Hours</p>
         <table class="hours">
-          <thead><tr><th>Day</th><th style="text-align:right">Hours</th></tr></thead>
-          <tbody>
-            <tr><td>Monday</td><td>8:00am &ndash; 5:00pm</td></tr>
-            <tr><td>Tuesday</td><td>8:00am &ndash; 5:00pm</td></tr>
-            <tr><td>Wednesday</td><td>8:00am &ndash; 5:00pm</td></tr>
-            <tr><td>Thursday</td><td>8:00am &ndash; 5:00pm</td></tr>
-            <tr><td>Friday</td><td>8:00am &ndash; 5:00pm</td></tr>
-            <tr><td>Saturday</td><td>8:00am &ndash; 3:00pm</td></tr>
-            <tr><td>Sunday</td><td>Closed</td></tr>
-          </tbody>
+          <tr><td>Monday</td><td>8:00 AM &ndash; 5:00 PM</td></tr>
+          <tr><td>Tuesday</td><td>8:00 AM &ndash; 5:00 PM</td></tr>
+          <tr><td>Wednesday</td><td>8:00 AM &ndash; 5:00 PM</td></tr>
+          <tr><td>Thursday</td><td>8:00 AM &ndash; 5:00 PM</td></tr>
+          <tr><td>Friday</td><td>8:00 AM &ndash; 5:00 PM</td></tr>
+          <tr><td>Saturday</td><td>8:00 AM &ndash; 3:00 PM</td></tr>
+          <tr><td>Sunday</td><td>Closed</td></tr>
         </table>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- FOOTER -->
+</main>
+
 <footer>
   <div class="wrap">
-    <a class="brand" href="#top">
-      <span class="mark"><svg viewBox="0 0 24 24"><path d="M3 13l1.5-4.5A2 2 0 0 1 6.4 7h11.2a2 2 0 0 1 1.9 1.5L21 13v5a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1v-1H6v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><circle cx="7" cy="15" r="1"/><circle cx="17" cy="15" r="1"/></svg></span>
-      Pronto City Auto Repair
-    </a>
-    <nav class="fnav">
-      <a href="#services">Services</a>
-      <a href="#about">About</a>
-      <a href="#visit">Visit</a>
-      <a href="tel:+15593189152" data-cta>Call</a>
-    </nav>
-    <p>1620 Todd St, Selma, CA &middot; <a href="tel:+15593189152" data-cta>(559) 318-9152</a></p>
-    <small>&copy; 2026 Pronto City Auto Repair. All rights reserved.</small>
+    <div>
+      <strong style="font-family:var(--oc-heading-font);letter-spacing:1px;text-transform:uppercase;color:var(--oc-text)">Pronto City Auto Repair</strong><br>
+      1620 Todd St, Selma, CA &middot; (559) 318-9152
+    </div>
+    <div>&copy; 2026 Pronto City Auto Repair. All rights reserved.</div>
   </div>
 </footer>
 
 <script>
-/* motion engine */
+/* mark today's row in the hours table */
+(function(){
+  var idx=new Date().getDay();               /* 0=Sun */
+  var map={1:0,2:1,3:2,4:3,5:4,6:5,0:6};
+  var rows=document.querySelectorAll('.hours tr');
+  if(rows[map[idx]])rows[map[idx]].classList.add('today');
+})();
+</script>
+
+<script>
 function cfMotion(config){
   config = config || {};
   var REDUCE = window.matchMedia && window.matchMedia('(prefers-reduced-motion:reduce)').matches;
@@ -504,8 +409,7 @@ function cfMotion(config){
     });
   }
   function reveal(el){
-    if(el.dataset.anim === 'lines'){ el.classList.add('cf-in');
-      Array.prototype.forEach.call(el.querySelectorAll('.cf-line'),function(l){l.classList.add('cf-in');}); return; }
+    if(el.dataset.anim === 'lines'){ el.classList.add('cf-in'); return; }
     el.classList.add('cf-in');
     if(el.dataset.anim === 'stagger'){
       Array.prototype.forEach.call(el.children, function(c,i){ c.style.transitionDelay = (i*0.08)+'s'; });
@@ -595,5 +499,6 @@ function cfMotion(config){
 }
 cfMotion({});
 </script>
+
 </body>
 </html>
